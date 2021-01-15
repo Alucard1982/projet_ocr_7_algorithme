@@ -3,6 +3,12 @@ from operator import itemgetter
 
 
 def best_single_20_actions(all_action):
+    """
+
+    fonction qui permet de calculer le meilleur investissement sur une action pour les 20 actions
+    :param all_action: liste des 20 actions
+    :return: une liste d'action trié du meilleure bénéfice par action au moins bon
+    """
     CONST_PRIX_MAX = 500
     CONST_100 = 100
     list_action = []
@@ -25,6 +31,12 @@ def best_single_20_actions(all_action):
 
 
 def action_possible(action):
+    """
+
+    fonction qui permet de trouver tte les combinaisons d'actions pour 500e pile
+    :param action: une liste d'action trié du meilleure bénéfice par action au moins bon
+    :return: liste de tte les combinaisons d'actions pour 500e
+    """
     CONST_PRIX_MAX = 500
     CONST_100 = 100
     list_by_action = []
@@ -71,6 +83,11 @@ def action_possible(action):
 
 
 def all_possibility_with_20_actions():
+    """
+
+    Procedure qui permet l'affichage de la meilleure combinaison d'action ainsi que la moins bonne
+    Affiche aussi le nombre de combinaisons d'actions pour 500e pile
+    """
     action = [['ashare-1', 15, 10], ['bshare-2', 25, 15], ['cshare-3', 35, 20], ['dshare-4', 30, 17],
               ['eshare-5', 40, 25], ['fshare-6', 11, 7], ['gshare-7', 13, 11], ['hshare-8', 24, 13],
               ['ishare-9', 17, 27], ['jshare-11', 55, 9], ['kshare-12', 19, 23], ['lshare-13', 7, 1],

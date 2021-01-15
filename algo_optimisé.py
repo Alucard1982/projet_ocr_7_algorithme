@@ -4,6 +4,8 @@ from operator import itemgetter
 
 
 def opti_algo():
+    """ Procedure qui permet d'afficher les 10 meilleurs actions à investir pour 500e sur 100K actions"""
+
     CONST_PRIX_MAX = 500
     CONST_100 = 100
     action = []

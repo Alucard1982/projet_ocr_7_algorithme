@@ -1,7 +1,10 @@
 import algo_optimisé
 import algo_force_brute
 
+
 def menu():
+    """affichage du menu"""
+
     print("Bienvenu dans le menu des actions")
     print("1-Algo Force Brute pour 20 actions")
     print("2-Algo opti pour 100000 actions")
@@ -37,6 +40,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
